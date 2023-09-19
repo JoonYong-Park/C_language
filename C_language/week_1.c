@@ -1,7 +1,7 @@
 #include <stdio.h>
-//#define _CRT_SECUER_NO_WARNINGS   // scanf_s 사용시 오류 방지
+//#define _CRT_SECUER_NO_WARNINGS   // scanf_s 사용시 오류 방지 (;없음)
 
-int main(void)
+int main_1(void)
 {
 	/// 정수형 변수의 선언과 초기화 ///
 	/*int x;
