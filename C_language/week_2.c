@@ -1,7 +1,11 @@
+// #include "myheader.h" // 사용자 정의 헤더 파일
 #include <stdio.h> // 표준 라이브러리 헤더 파일
-//#include "myheader.h" // 사용자 정의 헤더 파일
 
-int main(void)
+// 3장 (변수, 자료형, 상수)
+// 4장 (수식, 연산문, 연산자)
+
+
+int main_2(void)
 {
 	///// 부호, 정수, 16진수, 8진수 ///
 	/*printf("%d\n", 15);  // 부호없는 정수
