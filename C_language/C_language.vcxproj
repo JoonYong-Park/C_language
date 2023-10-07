@@ -127,11 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="cat.c" />
     <ClCompile Include="c_Project.c" />
-    <ClCompile Include="week_1.c" />
-    <ClCompile Include="week_2.c" />
-    <ClCompile Include="week_3.c" />
-    <ClCompile Include="week_4.c" />
+    <ClCompile Include="month.c" />
+    <ClCompile Include="parking.c" />
+    <ClCompile Include="star.c" />
+    <ClCompile Include="Chap_2_IO.c" />
+    <ClCompile Include="Chap_3_variable.c" />
+    <ClCompile Include="Chap_4_operator.c" />
+    <ClCompile Include="Chap_5_condition.c" />
+    <ClCompile Include="Chap_6_loop.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

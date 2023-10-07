@@ -2,10 +2,8 @@
 #include <stdio.h> // 표준 라이브러리 헤더 파일
 
 // 3장 (변수, 자료형, 상수)
-// 4장 (수식, 연산문, 연산자)
 
-
-int main_2(void)
+int main_3(void)
 {
 	///// 부호, 정수, 16진수, 8진수 ///
 	/*printf("%d\n", 15);  // 부호없는 정수
@@ -67,42 +65,6 @@ int main_2(void)
 
 	printf("삼각형의 넓이는 %.2f", area);*/
 
-	////////// 4장(수식, 연산문, 연산자) //////////
-	/// 대입 연산자의 사용 형태에 따른 결과	///
-	int x, y;
-	int test_1, test_2, test_3, temp;
-
-	x = 10;
-	y = 20;
-
-	test_1 = x + 40;
-	test_2 = x + y;
-	test_3 = y + (temp = x + 30);
-
-	printf("x + 40의 값은 = %d\n", test_1);
-	printf("x + y의 값은 = %d\n", test_2);
-	printf("temp = x + 60의 값은 = %d\n", temp);
-	printf("y + (temp = x + 30)의 값은 = %d\n", test_3);
-
-	return 0;
-
-
-	/*
-	/// 주민번호로 생년윌일과 성별을 알아내는 프로그램 ///
-	int s,y,m,d;
-
-	printf("주민번로 7자리를 입력하시오:\nex)9903311\n");
-	scanf_s("%2d %2d %2d %1d",&y, &m, &d, &s);
-
-	printf("%d년 %d월 %d일 생입니다.\n", y+1900,m,d);
-
-	if(s == 1 || s == 3)
-		printf("남자입니다.\n");
-	else if(s == 2 || s == 4)
-		printf("여자입니다.\n");
-	else
-		printf("잘못 입력하셨습니다.\n");
 	
-	return 0;*/
 
 }

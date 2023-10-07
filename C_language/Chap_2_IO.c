@@ -1,8 +1,10 @@
 #include <stdio.h>
 //#define _CRT_SECUER_NO_WARNINGS   // scanf_s 사용시 오류 방지 (;없음)
 
-int main_1(void)
-{
+// 2장 변수 선언 및 초기화, 입출력
+
+int main_2(void)
+{ 
 	/// 정수형 변수의 선언과 초기화 ///
 	/*int x;
 	int y;
@@ -13,13 +15,11 @@ int main_1(void)
 
 	sum = x + y;
 
-
 	printf("x = %d\n", x);
 	printf("y = %d\n", y);
 	printf("sum = %d\n", sum);
 
 	return 0;*/
-
 
 	/// 성적의 합과 평균을 구하는 프로그램 ///
 	/*int kor, eng, mat, sum;
@@ -35,7 +35,6 @@ int main_1(void)
 	printf("총점 값은  = %d\n평균 값은 = %.2f\n", sum, ave);
 
 	return 0;*/
-
 
 	/// 원의 둘레와 넓이를 구하는 프로그램 ///
 	/*const int pi = 3.14;

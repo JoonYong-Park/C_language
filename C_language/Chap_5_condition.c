@@ -2,7 +2,91 @@
 #include <stdio.h>
 // 5장 조건문
 
-int main() {
+int main_5() {
+
+	/////// 5장 조건문	///////
+	/*int num;
+	scanf_s("%d", &num);
+
+	if (num > 100 || num < 0)
+		printf("입력 범위 오버");
+	else if (num > 90 && num <= 100)
+		printf("A");
+	else if (num > 80 && num <= 90)
+		printf("B");
+	else if (num > 70 && num <= 80)
+		printf("C");
+	else if (num > 60 && num <= 70)
+		printf("D");
+	else if (num <= 60)
+		printf("F");
+	else
+		printf("노력좀해");*/
+
+	// 2중 if문 과락 평균 
+	/*int data, algo, base, hap;
+	float mean;
+
+	scanf_s("%d %d %d", &data, &algo, &base);
+
+	hap = data + algo + base;
+
+	mean = (float)hap / 3.0;
+
+	printf("합 = %d\n", hap);
+	printf("평균 = %.2f\n", mean);
+
+	if (data >= 40 && algo >= 40 && base >= 40) {
+		if (mean > 100 || mean < 0) {
+			printf("입력 범위 오버");
+		}
+		else if (mean < 60) {
+			printf("탈락(평균이 60점 이하입니다.)");
+		}
+		else {
+			printf("PASS");
+		}
+	}
+	else {
+		printf("탈락(과락이 있습니다.)");
+	}*/
+
+	// 2중 if문 성적
+	/*int num;
+
+	printf("정수를 입력하세요.\n");
+	scanf_s("%d", &num);
+
+	if (num > 0) {
+		printf("%d는 양수입니다.", num);
+	}
+	else if(num == 0){
+		printf("%d는 0입니다.", num);
+	}
+	else {
+		printf("%d는 음수입니다.", num);
+		printf("절댓값은 %d입니다.", abs(num));
+	}*/
+
+	/*int n1, n2;
+
+	printf("두 정수를 입력하세요.\n");
+	scanf_s("%d %d", &n1, &n2);
+
+	if (n1 == 0 || n2 == 0) {
+		printf("0이 포함 되어있습니다\n");
+	}
+	else if (n1 > n2) {
+		printf("%d가 %d보다 큽니다.\n", n1, n2);
+		printf("실수: %d / %d = %.2f\n", n1, n2, (float)n1 / n2);
+		printf("정수: %d / %d = %d\n", n1, n2, n1 / n2);
+	}
+	else {
+		printf("%d가 %d보다 큽니다.\n", n2, n1);
+		printf("실수: %d / %d = %.2f\n", n2, n1, (float)n2 / n1);
+		printf("정수: %d / %d = %d\n", n2, n1, n2 / n1);
+	}*/
+
     /// 5명의 학번과 성적을 입력받아 1등과 꼴등을 출력하는 프로그램 ///
     /*int num, data, algo, pro;
     float sum, mean;
@@ -138,15 +222,43 @@ int main() {
 
     printf("%d년생 %s띠 입니다.", y, ani[x]);
 
-    // 주차관리 프로그래밍 ㅔ -p192 3번
-    // 1. 알고리즘
-    // 2. 수도코드
-    // 3. C언어 코드
-    // 입력값 시:분
 
-    // 안내 표지판 풀력(가격표)
-    // 하루 요금은 15000원
-    // 정기권 1개월 100000원
-    // 
+	/// 국영수 평균 등급 ///
+	//int k, e, m;
+	//int mean;
 
+	//printf("국어, 영어, 수학 점수를 입력하시오\n");
+	//scanf("%d %d %d", &k, &e, &m);
+
+	//mean = (k + e + m) / 3;
+
+	//printf("평균: %d\n", mean);
+	//
+	//// if문
+	//if (mean > 90) {
+	//	printf("수!!\n");
+	//}
+	//else if (mean > 80) {
+	//	//printf("우!!\n");
+	//}
+	//else if (mean > 70) {
+	//	//printf("미!!\n");
+	//}
+	//else {
+	//	//printf("재시험!!\n");
+	//}
+
+	//// switch문
+	//switch (mean / 10) {
+	//	case 10: printf("수(100점)!!\n");
+	//	break;
+	//	case 9: printf("수!!\n");
+	//	break;
+	//	case 8: printf("우!!\n");
+	//	break;
+	//	case 7: printf("미!!\n");
+	//	break;
+	//	case 6: printf("재시험!!\n");
+	//	break;
+	//}
 }

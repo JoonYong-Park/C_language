@@ -13,22 +13,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\project">
+      <UniqueIdentifier>{c1c6ed2f-69ff-45d5-b74f-e53f9c6c4392}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="week_1.c">
+    <ClCompile Include="Chap_2_IO.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="week_2.c">
+    <ClCompile Include="Chap_3_variable.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="week_3.c">
+    <ClCompile Include="Chap_4_operator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="week_4.c">
+    <ClCompile Include="Chap_5_condition.c">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap_6_loop.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="parking.c">
+      <Filter>소스 파일\project</Filter>
     </ClCompile>
     <ClCompile Include="c_Project.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\project</Filter>
+    </ClCompile>
+    <ClCompile Include="cat.c">
+      <Filter>소스 파일\project</Filter>
+    </ClCompile>
+    <ClCompile Include="month.c">
+      <Filter>소스 파일\project</Filter>
+    </ClCompile>
+    <ClCompile Include="star.c">
+      <Filter>소스 파일\project</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
