@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 // 6장 반복문
-int main_6() {
+int main() {
 	
 	////// 6장 반복문 //////
 	/// 반복문 밖 i는 몇일까? ///
@@ -107,16 +107,6 @@ int main_6() {
 	}
 	printf("%d부터 %d까지의 합은 %d이다.", n1+1, n2-1, hap);*/
 
-
-	/*for(int i = 1; i < 10; i++) {
-		for (int j = 1; j < 10; j++) {
-			for (int k = 1; k < 3; k++) {
-				printf("%d * %d = %2d\t", j, i, j * i);
-			}
-				printf("\n");
-		}
-		printf("\n");
-	}*/
 	
 	/// 숙제 3중 for문 구구단 ///
 	/*for (int k = 0; k < 3; k++) {
@@ -127,11 +117,24 @@ int main_6() {
 			printf("\n");
 		}
 		printf("\n");
+	} */
 
-	}*/
 
-	// 276 : 3 5 10
+	/// 숙제 3중 for문 구구단 ///
+	// 1~4
+	// 1~5
+	/*for (int k = 1; k < 3; k++) {
+		for (int i = 1; i < 10; i++) {
+			for (int j = k; j < k; j++) {
+				printf("%d * %d = %2d\t", j, i, j * i);
+			}
+			printf("\n");
+		}
+		printf("\n");
+	} */
 	
+
+	// p276 : 3 5 10번 문제들
 	// 3번 //
 	/*int hap = 0;
 
@@ -158,7 +161,7 @@ int main_6() {
 	printf("<최종: %d>\n", hap);*/
 
 	// 10번 //
-	printf("                   합계\n");
+	/*printf("                   합계\n");
 	printf("-----------------------\n");
 	for (int i = 1; i < 8; i++) {
 		int hap = 0;
@@ -169,9 +172,171 @@ int main_6() {
 		for(int k = 10; k > i ; k--) {
 			printf("  ");
 		}
+
 		printf("%d ", hap);
 		printf("\n");
+	}*/
+
+	//////////// while문 ////////////
+	/// 0~4까지 출력 ///
+	/*int i;
+	int loop = 0;
+	i = 0;
+
+	while (i < 5) {
+		loop++;
+		printf("재어변수 i = %d 입니다.\n", i);
+
+		i++;
 	}
+	printf("반목문 밖 i = %d\n", i);*/
+
+	/// 5번 입력을 받고 합을 구한다 ///
+	/*int i = 1;
+	int n;
+	int cnt = 0;
+
+	while (i < 6) {
+		printf("숫자를 입력하시오");
+		scanf_s("%d", &n);
+		cnt += n;
+		i++;
+	}
+	printf("합은 %d이다.", cnt);*/
+
+	/// 무한 반복 하여 입력이 0이면 종료하고 합을 구한다 ///
+	/*int i = 0;
+	int n;
+
+	int cnt = 0;
+	while (1) {
+		printf("숫자를 입력하시오: ");
+		scanf_s("%d", &n);
+		if(n == 0)
+			break;
+
+		cnt += n;
+		i++;
+	}
+	printf("합은 %d이고 %d번 입력되었다.", cnt, i);	
+	*/
+	
+	/// 무한 반복 하여 입력이 999이면 종료하고 합을 구한다 ///
+	/*int i = 0;
+	int n;
+	int input;
+
+	int cnt = 0;
+	while (1) {
+		printf("숫자를 입력하시오: ");
+		scanf_s("%d", &n);
+		if(n == 999)
+			break;
+
+		cnt += n;
+		i++;
+	}
+	printf("합은 %d이고 평균은 %d입니다. \n%d번 입력되었다.", cnt, cnt/i, i);	*/
+
+	/// 몇번 나왔나 check ///
+	/*int n, n1 = 0, n2 = 0, n3 = 0, n4 = 0, n5 = 0;
+
+	for (int i = 0; i < 5; i++) {
+		printf("1~5사이의 숫자를 입력하시오: \n");
+		scanf("%d", &n);
+		if (n == 1) {
+			n1++;
+		}
+		else if (n == 2) {
+			n2++;
+		}
+		else if (n == 3) {
+			n3++;
+		}
+		else if (n == 4) {
+			n4++;
+		}
+		else if (n == 5) {
+			n5++;
+		}
+	}
+	printf("1: %d\n2: %d\n3: %d\n4: %d\n5: %d\n", n1, n2, n3, n4, n5);*/
+	
+	
+	/// 배열 맛보기	///
+	/*int n, n1 = 0, n2 = 0, n3 = 0, n4 = 0, n5 = 0;
+	int c[5] = { 0 ,0,0,0,0 };
+
+	for (int i = 1; i < 6; i++) {
+		printf("1~5사이의 숫자를 n력하시오: \n");
+		scanf("%d", &n);
+		if (n == 1) {
+			c[n] = c[i] + 1;
+		}
+		else if (n == 2) {
+			c[n] = c[i] + 1;
+		}
+		else if (n == 3) {
+			c[n] = c[i] + 1;
+		}
+		else if (n == 4) {
+			c[n] = c[i] + 1;
+		}
+		else if (n == 5) {
+			c[n] = c[i] + 1;
+		}
+	}
+
+	for (int i = 1; i < 6; i++) {
+		printf("%d번째 값은 %d\n", i, c[i]);
+	
+	}*/
+	
+
+
+	/// a~z까지 출력 여러방식으로 출력 ///
+
+	/*/// 1번
+	for (int i = 'a'; i < 'z' + 1; i++) {
+		for (int j = 'a'; j < i + 1; j++) {
+			printf("%c ", j);
+		}
+		printf("\n");
+	}
+
+	printf("\n");
+
+	/// 2번
+	for (int i = 'a'; i < 'z' + 1; i++) {
+		for (int j = i; j < 'z' + 1; j++) {
+			if (j == 'z')
+				printf(". ");
+			printf("%c ", j);
+		}
+		for (int j = 'a'; j < i; j++) {
+			printf("%c ", j);
+		}
+		printf("\n");
+	}
+
+	printf("\n");
+
+	/// 3번
+	for (int i = 'a'; i < 'z' + 1; i++) {
+		for (int j = i; j < 'z' + 1; j++) {
+			printf("  ");
+		}
+		for (int j = 'a'; j < i + 1; j++) {
+			printf("%c ", j);
+		}
+		printf("\n");
+	}*/
+
+
+
+
+
+
 
 
 }

@@ -21,16 +21,16 @@
     <ClCompile Include="Chap_2_IO.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Chap_3_variable.c">
+    <ClCompile Include="Chap_3_Variable.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Chap_4_operator.c">
+    <ClCompile Include="Chap_4_Operator.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Chap_5_condition.c">
+    <ClCompile Include="Chap_5_Condition.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Chap_6_loop.c">
+    <ClCompile Include="Chap_6_Loop.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="parking.c">
@@ -42,10 +42,16 @@
     <ClCompile Include="cat.c">
       <Filter>소스 파일\project</Filter>
     </ClCompile>
-    <ClCompile Include="month.c">
+    <ClCompile Include="Calendar.c">
       <Filter>소스 파일\project</Filter>
     </ClCompile>
     <ClCompile Include="star.c">
+      <Filter>소스 파일\project</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap_7_Array.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Water_Balloon.c">
       <Filter>소스 파일\project</Filter>
     </ClCompile>
   </ItemGroup>

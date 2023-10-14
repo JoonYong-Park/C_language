@@ -129,14 +129,16 @@
   <ItemGroup>
     <ClCompile Include="cat.c" />
     <ClCompile Include="c_Project.c" />
-    <ClCompile Include="month.c" />
+    <ClCompile Include="Calendar.c" />
     <ClCompile Include="parking.c" />
     <ClCompile Include="star.c" />
     <ClCompile Include="Chap_2_IO.c" />
-    <ClCompile Include="Chap_3_variable.c" />
-    <ClCompile Include="Chap_4_operator.c" />
-    <ClCompile Include="Chap_5_condition.c" />
-    <ClCompile Include="Chap_6_loop.c" />
+    <ClCompile Include="Chap_3_Variable.c" />
+    <ClCompile Include="Chap_4_Operator.c" />
+    <ClCompile Include="Chap_5_Condition.c" />
+    <ClCompile Include="Chap_6_Loop.c" />
+    <ClCompile Include="Chap_7_Array.c" />
+    <ClCompile Include="Water_Balloon.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
