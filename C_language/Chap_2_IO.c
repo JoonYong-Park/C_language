@@ -1,5 +1,5 @@
-#include <stdio.h>
 //#define _CRT_SECUER_NO_WARNINGS   // scanf_s 사용시 오류 방지 (;없음)
+#include <stdio.h>
 
 // 2장 변수 선언 및 초기화, 입출력
 
@@ -52,7 +52,7 @@ int main_2(void)
 
 
 	/// 주민번호와 나이를 구하는 프로그램 ///
-	printf("주민번호를 입력하세요.\n예)990331\n");
+	/*printf("주민번호를 입력하세요.\n예)990331\n");
 	int num1, num2, num3;
 	int age;
 	scanf_s("%2d %2d %2d", &num1, &num2, &num3);
@@ -60,6 +60,6 @@ int main_2(void)
 	age = 2023 - (1900 + num1);
 
 	printf("19%d년 %d월 %d일\n", num1, num2, num3);
-	printf("나이:%d", age);
+	printf("나이:%d", age);*/
 
 }

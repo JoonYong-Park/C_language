@@ -209,7 +209,7 @@ int main_5() {
     }*/
 
 	/// 
-    int y, m, d, x;
+    /*int y, m, d, x;
 
     char ani[12][13] = { "원숭이","닭", "개", "돼","쥐","소","호랑이","토끼","용","뱀","양" };
 
@@ -223,17 +223,17 @@ int main_5() {
 
 
 	/// 국영수 평균 등급 ///
-	//int k, e, m;
-	//int mean;
+	int k, e, m;
+	int mean;
 
-	//printf("국어, 영어, 수학 점수를 입력하시오\n");
-	//scanf("%d %d %d", &k, &e, &m);
+	printf("국어, 영어, 수학 점수를 입력하시오\n");
+	scanf("%d %d %d", &k, &e, &m);
 
-	//mean = (k + e + m) / 3;
+	mean = (k + e + m) / 3;
 
-	//printf("평균: %d\n", mean);
-	//
-	//// if문
+	printf("평균: %d\n", mean);*/
+	
+	// if문
 	//if (mean > 90) {
 	//	printf("수!!\n");
 	//}
@@ -248,16 +248,18 @@ int main_5() {
 	//}
 
 	//// switch문
-	//switch (mean / 10) {
-	//	case 10: printf("수(100점)!!\n");
-	//	break;
-	//	case 9: printf("수!!\n");
-	//	break;
-	//	case 8: printf("우!!\n");
-	//	break;
-	//	case 7: printf("미!!\n");
-	//	break;
-	//	case 6: printf("재시험!!\n");
-	//	break;
-	//}
+	int mean = 1;
+	switch (mean) {
+		case 10:	printf("수(100점)!!\n");
+					break;
+		case 9: printf("수!!\n");
+		break;
+		case 8: printf("우!!\n");
+		break;
+		case 7: printf("미!!\n");
+		break;
+		case 6: printf("재시험!!\n");
+		break;
+		default: printf("재시험!!\n");
+	}
 }

@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 // 6장 반복문
-int main() {
+int main_6() {
 	
 	////// 6장 반복문 //////
 	/// 반복문 밖 i는 몇일까? ///
