@@ -54,5 +54,20 @@
     <ClCompile Include="Water_Balloon.c">
       <Filter>소스 파일\project</Filter>
     </ClCompile>
+    <ClCompile Include="mid_test.c">
+      <Filter>소스 파일\project</Filter>
+    </ClCompile>
+    <ClCompile Include="Lotto.c">
+      <Filter>소스 파일\project</Filter>
+    </ClCompile>
+    <ClCompile Include="ctrl_cv.c">
+      <Filter>소스 파일\project</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap_8_Function.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mid_junhuk.c">
+      <Filter>소스 파일\project</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

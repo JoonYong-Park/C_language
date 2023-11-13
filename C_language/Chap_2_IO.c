@@ -28,7 +28,7 @@ int main_2(void)
 	scanf_s("%d %d %d", &kor, &eng, &mat);
 
 	sum = kor + eng + mat;
-	ave = sum / 3.0;
+	ave = (float)sum / 3;
 
 	printf("국어 점수 = %d\n", kor);
 	printf("영어 점수 = %d\n수학 점수 = %d\n", eng, mat);

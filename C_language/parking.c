@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-int main_p() {
+int main_parking() {
 
 	int in_hour, in_min;
 	int out_hour, out_min;

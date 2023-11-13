@@ -1,8 +1,9 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <string.h>
 
-int main() {
-	
+int main_7() {
+
 	/// 배열 만들기 ///
 	/*int arr[10];
 	int c = 1;
@@ -113,7 +114,7 @@ int main() {
 		k_sum += k[j];
 		e_sum += e[j];
 		m_sum += m[j];
-		
+
 		printf("%2d번 학생) 국어:%2d, 영어:%2d, 수학%2d\n",j+1,k[j],e[j],m[j]);
 	}
 	printf("국어 평균: %2d\n", k_sum / 9);
@@ -140,8 +141,8 @@ int main() {
 	}
 	printf("%d번째에 있다.", cnt);*/
 
-	/// 배열에서 원하는 위치에 데이터 삽입 ///            중간고사 문제
-	int i;
+	/// 배열에서 원하는 위치에 데이터 삽입 ///            @@@ 중간고사 문제
+	/*int i;
 	int num;
 	int arr[5] = { 1, 2, 3 };
 	for (int j = 0; j < 5; j++) {
@@ -158,9 +159,9 @@ int main() {
 
 	for(int j = 0; j < 5; j++) {
 		printf("%d ", arr[j]);
-	}
+	}*/
 
-	
+
 	/// 배열을 버블정렬   중간고사 문제 X
 	/*int arr[5] = { 4 ,2 ,5 ,3 ,1 };
 	int temp;
@@ -168,7 +169,7 @@ int main() {
 	for (int i = 0; i < 5; i++) {
 		for (int j = 0; j < 4-i; j++) {
 			if (arr[j] > arr[j + 1]) {
-				temp = arr[j + 1];	
+				temp = arr[j + 1];
 				arr[j + 1] = arr[j];
 				arr[j] = temp;
 			}
@@ -179,37 +180,165 @@ int main() {
 		printf("%d ", arr[i]);
 	}*/
 
+	/// 5명의 국,영,수 점수를 입력받아서 각 학생의 총점 평균, 각 과목의 총점과 평균 ///
+	/*int kor[5], eng[5], math[5];
+	int std_sum[5];
+	int std_avg[5];
+	int kor_sum = 0, eng_sum = 0, math_sum = 0;
+	int kor_avg = 0, eng_avg = 0, math_avg = 0;
+
+	for (int i = 0; i < 5; i++) {
+		printf("국어, 영어, 수학 점수를 입력하시오: ");
+		scanf("%d %d %d", &kor[i], &eng[i], &math[i]);
+
+		std_sum[i] = kor[i] + eng[i] + math[i];
+		std_avg[i] = std_sum[i] / 3;
+
+		kor_sum += kor[i];
+		eng_sum += eng[i];
+		math_sum += math[i];
+
+		kor_avg = kor_sum / 5;
+		eng_avg = eng_sum / 5;
+		math_avg = math_sum / 5;
+	}
+
+	for (int j = 0; j < 5; j++) {
+		printf("%d번 학생: 총점 %d, 평균 %d\n", j, std_sum[j], std_avg[j]);
+	}
+	printf("국어 총점: %d, 평균: %d\n", kor_sum, math_avg);
+	printf("영어 총점: %d, 평균: %d\n", eng_sum, eng_avg);
+	printf("수학 총점: %d, 평균: %d\n", math_sum, math_avg);
+
+	return 0;*/
 
 
+	/// 2차원 배열 ///
+	//int jumsu[5][4] = { 0 };
+	//int math_sum = 0, eng_sum = 0, kor_sum = 0;
+	//for(int i = 0; i < 5; i++) {   // 행
+	//	for(int j = 0; j < 3; j++) {  // 열
+	//		// printf("학생 %d의 점수를 입력하시오: ", i+1);
+	//		scanf("%d", &jumsu[i][j]);
+	//		jumsu[i][3] += jumsu[i][j];
+	//		
+	//	}
+	//}	
+	//for (int i = 0; i < 5; i++) {
+	//	printf("%d번 학생: 총점 %d, 평균 %d\n", i, jumsu[i][3], jumsu[i][3]/3);
+	//}
+	//for(int i = 0; i < 4; i++) {
+	//	kor_sum += jumsu[i][0];
+	//	eng_sum += jumsu[i][1];
+	//	math_sum += jumsu[i][2];
+	//}
+	//printf("국어 총점: %d, 평균: %d\n", kor_sum, kor_sum/5);
+	//printf("영어 총점: %d, 평균: %d\n", kor_sum, kor_sum/5);
+	//printf("수학 총점: %d, 평균: %d\n", kor_sum, kor_sum/5);
+
+	//return 0;
+
+	////////////////// ## 숙제 로또 프로그램(사진) 
+
+	/// 문자열 쓰래기값///
+	//char str[5] = "joon";
+	//printf("%s", str);
+
+	//char str2[10]; // 쓰래기값 -> 한자
+	//str2[0] = 'j';
+	//str2[1] = 'o';
+	//str2[2] = 'o';
+	//str2[3] = 'n';
+	//str2[4] = '\0';
+
+	//printf("\n%s", str2);
+
+	//char str3[6] = { "바바" };
+	//printf("\n%s", str3);
+	//char str3[9] = { "박준용" };
+	//printf("\n%s", str3);
+
+	//char str4[10] = { "박준용" };
+	//printf("\n%s", str4);
 
 
+	/// 배열을 하나 선언하고 문자열을 넣어놓고 시작 문자열의 길이가 몇글자인지 출력 ///
+	/*char str[10] = ("test");
+	int cnt = 0;
+	int j = 0;
+	int cnt2 = 0;
 
 
+	for (int i = 0; i < 10; i++) {
+		if (str[i] == '\0') {
+			break;
+		}
+		else {
+			cnt++;
+		}
+	}
+
+	while (str[j] != '\0') {
+		cnt2++;
+		j++;
+	}
+	printf("%d\n", cnt);
+	printf("%d", cnt2);*/
 
 
+	/// 문자열을 입력받아서 문자열의 길이를 출력 ///  문자열은 & 생략가능
+	//int cnt = 0;
+	//char str[5][10];
+	//int j = 0;
+
+	//for (int i = 0; i < 5; i++) {
+	//	scanf("%s", &str[i],10);      // 최대 10글자의 문자열을 5번 입력 받는다.
+	//	
+	//
+	//}
+	//for (int i = 0; i < 5; i++) {
+	//	
+	//	printf("%s ", str[i]);
+	//
+	//}
+
+	/*while (str[j] != '\0') {
+		cnt++;
+		j++;
+	}
+	printf("%d\n", cnt);*/
 
 
+	//char str[] = { "abc" };
+	//int sum = 0;
+	///*for (int i = 0; i < 10; i++) {
+	//	if (str[i] == '\0') {
+	//		break;
+	//	}
+	//	else {
+	//		sum = sum + 1;
+	//	}
+	//}*/
+	//for (int i = 0; i < strlen(str); i++) {
+	//	sum = sum + 1;
+	//}
+	//printf("%d", sum);
 
 
+	/// 문자열이 같나 다른가 ///
+	/*char str1[13] = "abc";
+	char str2[13] = "abcd";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	if (strcmp(str1, str2) == 0) {
+		printf("같다");
+	}
+	else {
+		printf("다르다");
+	}*/
+	
+	/// 문자열의 길이를 출력 ///
+	/*int num1 = strlen(str1);
+	int num2 = strlen(str2);*/
 
 
 }

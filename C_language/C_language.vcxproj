@@ -128,8 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cat.c" />
+    <ClCompile Include="Chap_8_Function.c" />
+    <ClCompile Include="ctrl_cv.c" />
     <ClCompile Include="c_Project.c" />
     <ClCompile Include="Calendar.c" />
+    <ClCompile Include="Lotto.c" />
+    <ClCompile Include="mid_junhuk.c" />
+    <ClCompile Include="mid_test.c" />
     <ClCompile Include="parking.c" />
     <ClCompile Include="star.c" />
     <ClCompile Include="Chap_2_IO.c" />

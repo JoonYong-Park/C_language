@@ -7,7 +7,7 @@ int main_4(void) {
 
 	////////// 4장(수식, 연산문, 연산자) //////////
 	/// 대입 연산자의 사용 형태에 따른 결과	///
-	int x, y;
+	/*int x, y;
 	int test_1, test_2, test_3, temp;
 
 	x = 10;
@@ -22,7 +22,7 @@ int main_4(void) {
 	printf("temp = x + 60의 값은 = %d\n", temp);
 	printf("y + (temp = x + 30)의 값은 = %d\n", test_3);
 
-	return 0;
+	return 0;*/
 
 
 	/*

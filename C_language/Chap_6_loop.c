@@ -122,18 +122,28 @@ int main_6() {
 
 	/// 숙제 3중 for문 구구단 ///
 	// 1~4
-	// 1~5
+	// 5~9
 	/*for (int k = 1; k < 3; k++) {
 		for (int i = 1; i < 10; i++) {
-			for (int j = k; j < k; j++) {
+			for (int j = k; j < k*5; j++) {
 				printf("%d * %d = %2d\t", j, i, j * i);
 			}
 			printf("\n");
 		}
 		printf("\n");
-	} */
-	
+	}*/
 
+	/*for (int i = 1; i <= 2; i++) {
+		for (int j = 1; j <= 9; j++) {
+			for (int k = 4 * i - 3; k <= 5 * i - 1; k++) {
+				printf("%d * %d = %d\t", k, j, k * j);
+			}
+			printf("\n");
+		}
+		printf("\n");
+	}*/
+
+	
 	// p276 : 3 5 10번 문제들
 	// 3번 //
 	/*int hap = 0;
@@ -296,7 +306,7 @@ int main_6() {
 
 	/// a~z까지 출력 여러방식으로 출력 ///
 
-	/*/// 1번
+	/// 1번
 	for (int i = 'a'; i < 'z' + 1; i++) {
 		for (int j = 'a'; j < i + 1; j++) {
 			printf("%c ", j);
@@ -330,10 +340,7 @@ int main_6() {
 			printf("%c ", j);
 		}
 		printf("\n");
-	}*/
-
-
-
+	}
 
 
 
