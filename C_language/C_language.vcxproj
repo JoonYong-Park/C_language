@@ -129,13 +129,17 @@
   <ItemGroup>
     <ClCompile Include="cat.c" />
     <ClCompile Include="Chap_8_Function.c" />
+    <ClCompile Include="Chap_9_Pointer.c" />
     <ClCompile Include="ctrl_cv.c" />
     <ClCompile Include="c_Project.c" />
     <ClCompile Include="Calendar.c" />
+    <ClCompile Include="header.c" />
     <ClCompile Include="Lotto.c" />
+    <ClCompile Include="marking.c" />
     <ClCompile Include="mid_junhuk.c" />
     <ClCompile Include="mid_test.c" />
     <ClCompile Include="parking.c" />
+    <ClCompile Include="PhoneBook.c" />
     <ClCompile Include="star.c" />
     <ClCompile Include="Chap_2_IO.c" />
     <ClCompile Include="Chap_3_Variable.c" />
@@ -144,6 +148,9 @@
     <ClCompile Include="Chap_6_Loop.c" />
     <ClCompile Include="Chap_7_Array.c" />
     <ClCompile Include="Water_Balloon.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test_header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -69,5 +69,22 @@
     <ClCompile Include="mid_junhuk.c">
       <Filter>소스 파일\project</Filter>
     </ClCompile>
+    <ClCompile Include="PhoneBook.c">
+      <Filter>소스 파일\project</Filter>
+    </ClCompile>
+    <ClCompile Include="marking.c">
+      <Filter>소스 파일\project</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap_9_Pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="header.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test_header.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

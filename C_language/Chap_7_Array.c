@@ -340,5 +340,52 @@ int main_7() {
 	/*int num1 = strlen(str1);
 	int num2 = strlen(str2);*/
 
+	char name[5][10] = { "박준용", "장지용", "정호진", "김진희", "이은상" };
+	char num[5][15] = { "010-1111-1111","010-2222-2222","010-3333-3333","010-4444-4444","010-5555-5555" };
+	int choice = 0;
+	char name2[10];
 
+	while (1) {
+		printf("====================================\n");
+		printf("= 1.전체 출력   2.검색   3.종료    =\n");
+		printf("====================================\n");
+		printf("번호 입력:");
+		scanf("%d", &choice);
+
+		if (choice == 1) {
+			for (int i = 0; i < 5; i++) {
+				printf("%s: %s\n", name[i], num[i]);
+			}
+		}
+
+		else if (choice == 2) {
+			int i;
+			printf("이름 입력:");
+			scanf("%s", name2);
+
+
+			for (i = 0; i < 5; i++) {
+				if (strcmp(name[i], name2) == 0) {
+					printf("%s: %s\n", name[i], num[i]);
+				}
+			}
+			if (i == 5) {
+				printf("없는 이름입니다.\n");
+			}
+		}
+
+
+		else if (choice == 3) {
+			return 0;
+		}
+
+		else {
+			printf("잘못된 입력입니다.");
+		}
+
+		printf("====================================\n");
+
+
+		return 0;
+	}
 }
