@@ -81,6 +81,9 @@
     <ClCompile Include="header.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Chap_13_Structure.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="test_header.h">

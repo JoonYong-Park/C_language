@@ -218,14 +218,14 @@ int main_7() {
 	//int math_sum = 0, eng_sum = 0, kor_sum = 0;
 	//for(int i = 0; i < 5; i++) {   // 행
 	//	for(int j = 0; j < 3; j++) {  // 열
-	//		// printf("학생 %d의 점수를 입력하시오: ", i+1);
+	//		printf("학생 %d의 점수를 입력하시오: ", i+1);
 	//		scanf("%d", &jumsu[i][j]);
 	//		jumsu[i][3] += jumsu[i][j];
 	//		
 	//	}
 	//}	
 	//for (int i = 0; i < 5; i++) {
-	//	printf("%d번 학생: 총점 %d, 평균 %d\n", i, jumsu[i][3], jumsu[i][3]/3);
+	//	printf("%d번 학생: 총점 %d, 평균 %d\n", i+1, jumsu[i][3], jumsu[i][3]/3);
 	//}
 	//for(int i = 0; i < 4; i++) {
 	//	kor_sum += jumsu[i][0];
@@ -242,7 +242,7 @@ int main_7() {
 
 	/// 문자열 쓰래기값///
 	//char str[5] = "joon";
-	//printf("%s", str);
+	//printf("%s", str); 
 
 	//char str2[10]; // 쓰래기값 -> 한자
 	//str2[0] = 'j';
@@ -250,17 +250,20 @@ int main_7() {
 	//str2[2] = 'o';
 	//str2[3] = 'n';
 	//str2[4] = '\0';
-
 	//printf("\n%s", str2);
 
-	//char str3[6] = { "바바" };
-	//printf("\n%s", str3);
-	//char str3[9] = { "박준용" };
-	//printf("\n%s", str3);
+	/*char str3[] = { "바바" };
+	printf("\n%s", str3);
 
-	//char str4[10] = { "박준용" };
-	//printf("\n%s", str4);
 
+	char str4[9] = { "박준용" };
+	printf("\n%s", str4);
+
+	char str5[10] = { "박준용" };
+	printf("\n%s", str5);
+	printf("\n%d ", strlen(str3));
+	printf("%d ", strlen(str4));
+	printf("%d ", strlen(str5));*/
 
 	/// 배열을 하나 선언하고 문자열을 넣어놓고 시작 문자열의 길이가 몇글자인지 출력 ///
 	/*char str[10] = ("test");
@@ -285,6 +288,7 @@ int main_7() {
 	printf("%d\n", cnt);
 	printf("%d", cnt2);*/
 
+    ///////////////////////////////////////////////////////////////////////////////// 여기까지 함
 
 	/// 문자열을 입력받아서 문자열의 길이를 출력 ///  문자열은 & 생략가능
 	//int cnt = 0;
@@ -340,7 +344,8 @@ int main_7() {
 	/*int num1 = strlen(str1);
 	int num2 = strlen(str2);*/
 
-	char name[5][10] = { "박준용", "장지용", "정호진", "김진희", "이은상" };
+	/// 전화번호부 ///
+	/*char name[5][10] = { "박준용", "장지용", "정호진", "김진희", "이은상" };
 	char num[5][15] = { "010-1111-1111","010-2222-2222","010-3333-3333","010-4444-4444","010-5555-5555" };
 	int choice = 0;
 	char name2[10];
@@ -388,4 +393,8 @@ int main_7() {
 
 		return 0;
 	}
+	*/
+
+
+
 }

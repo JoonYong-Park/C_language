@@ -97,7 +97,7 @@ int chainge(a,b) {
 }
 
 void sum(int d){
-    static int ys = 0;
+    static int ys;
     int ns = 0;
 
     ys = ys + d;
@@ -106,7 +106,7 @@ void sum(int d){
     printf("yes: %d, no: %d\n", ys, ns);
 }
 
-int sum_2( int xarr[3]) {
+int sum_2( int xarr[4]) {
     int i = 0, j = 0;
     while(xarr[i] != '\0') {
 		j += xarr[i++];
@@ -117,8 +117,13 @@ int sum_2( int xarr[3]) {
 int sum_3(char xarr[4][10]) {
     int i = 0, j = 0;
     
-    while(xarr[i] != '\0') {
-        return j;
+
+    while(1) {
+        printf("%s ", xarr[i]);
+        i++;
+        if(i == 4) {
+			break;
+		}
 	}
 }
 
@@ -239,24 +244,22 @@ void main_8()
     chainge(a, b);*/
 
     /// static 변수 ///
-    /*int a;
-    for(int i = 0; i < 5; i++) {
+    /*for(int i = 0; i < 5; i++) {
         sum(i);
     }*/
 
     /// 매개변수 배열 ///
-    //int arr[3] = { 1,2,3 };
+    //int arr[4] = { 1,2,3 };
     //int x;
     //x = sum_2(arr);  //== &arr[0]
     //printf("%d ", x);
 
-    /// 매개변수 배열 ///
+    ///// 매개변수 배열 ///
     //char arr[4][10] = { "준용", "지용","호진", "주연"};
     //int x;
-    //x = sum_3(arr);  //== &arr[0]
-    //printf("%d ", x);
+    //sum_3(arr);  //== &arr[0]
 
-    /// 매개변수 체인지 ///
+    ///// 매개변수 체인지 ///
     //int a = 10, b = 20;
     //swap(a, b);
     //printf("a: %d, b: %d", a, b);  // 사용자 정의 함수가 바뀐거지 메인에서 바뀐게 아니다.
@@ -280,12 +283,13 @@ void main_8()
         printf("\n");
     }*/
 
-    /// 펙토리얼 ///
+    /// 펙토리얼(재귀) ///
     /*int n;
     printf("정수를 입력하시오: ");
     scanf("%d", &n);
     printf("%d! = %.0f", n, factorial(n));*/
 
+	/// 전화번호부 ///
     char name[5][10] = { "박준용", "장지용", "정호진", "김진희", "이은상" };
     char num[5][15] = { "010-1111-1111","010-2222-2222","010-3333-3333","010-4444-4444","010-5555-5555" };
     int choice = 0;
@@ -299,9 +303,10 @@ void main_8()
         scanf("%d", &choice);
 
         if (choice == 1) {
-            return(name, num);
+            for(int i = 0; i < 5; i++) {
+				printf("%s: %s\n", name[i], num[i]);
+			}
         }
-
         else if (choice == 2) {
             int i;
             printf("이름 입력:");
@@ -319,7 +324,6 @@ void main_8()
         else if (choice == 3) {
             return 0;
         }
-
         else {
             printf("잘못된 입력입니다.");
         }
