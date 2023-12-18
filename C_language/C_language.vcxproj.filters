@@ -78,11 +78,17 @@
     <ClCompile Include="Chap_9_Pointer.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="header.c">
+    <ClCompile Include="Chap_10_Structure.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Chap_13_Structure.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="header.c">
+      <Filter>소스 파일\project</Filter>
+    </ClCompile>
+    <ClCompile Include="Battery usage.c">
+      <Filter>소스 파일\project</Filter>
+    </ClCompile>
+    <ClCompile Include="final_test.c">
+      <Filter>소스 파일\project</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

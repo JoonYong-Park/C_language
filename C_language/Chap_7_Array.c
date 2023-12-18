@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include <stdio.h>
-#include <string.h>
+#include <stdio.h> 
+#include <string.h> // strlen() 함수를 사용하기 위해 필요하다.
 
 int main_7() {
 
@@ -9,7 +9,7 @@ int main_7() {
 	int c = 1;
 	for (int i = 0; i < 10; i++) {
 		arr[i] = 5;
-		printf("%d ", c);
+		printf("%d ", arr[i]);
 		c++;
 	}*/
 
@@ -100,6 +100,7 @@ int main_7() {
 	printf("최소값: %d\n", min);
 	printf("최대값: %d\n", max);*/
 
+	/// 국 영 수 ///
 	/*int k[9], e[9], m[9];
 	int k_sum = 0, e_sum = 0, m_sum = 0;
 	for (int i = 0; i < 9; i++) {
@@ -221,7 +222,6 @@ int main_7() {
 	//		printf("학생 %d의 점수를 입력하시오: ", i+1);
 	//		scanf("%d", &jumsu[i][j]);
 	//		jumsu[i][3] += jumsu[i][j];
-	//		
 	//	}
 	//}	
 	//for (int i = 0; i < 5; i++) {
@@ -252,6 +252,7 @@ int main_7() {
 	//str2[4] = '\0';
 	//printf("\n%s", str2);
 
+	/// 문자열 입력받기 ///
 	/*char str3[] = { "바바" };
 	printf("\n%s", str3);
 
@@ -261,6 +262,7 @@ int main_7() {
 
 	char str5[10] = { "박준용" };
 	printf("\n%s", str5);
+
 	printf("\n%d ", strlen(str3));
 	printf("%d ", strlen(str4));
 	printf("%d ", strlen(str5));*/
@@ -268,7 +270,7 @@ int main_7() {
 	/// 배열을 하나 선언하고 문자열을 넣어놓고 시작 문자열의 길이가 몇글자인지 출력 ///
 	/*char str[10] = ("test");
 	int cnt = 0;
-	int j = 0;
+	int   j = 0;
 	int cnt2 = 0;
 
 
@@ -330,19 +332,20 @@ int main_7() {
 
 
 	/// 문자열이 같나 다른가 ///
-	/*char str1[13] = "abc";
-	char str2[13] = "abcd";
+	//char str1[13] = "abc";
+	//char str2[13] = "abcd";
 
-	if (strcmp(str1, str2) == 0) {
-		printf("같다");
-	}
-	else {
-		printf("다르다");
-	}*/
-	
-	/// 문자열의 길이를 출력 ///
-	/*int num1 = strlen(str1);
-	int num2 = strlen(str2);*/
+	//if (strcmp(str1, str2) == 0) {
+	//	printf("같다");
+	//}
+	//else {
+	//	printf("다르다");
+	//}
+	//
+	//// 문자열의 길이를 출력 
+	//int num1 = strlen(str1);
+	//int num2 = strlen(str2);
+	//printf("%d %d", num1, num2);
 
 	/// 전화번호부 ///
 	/*char name[5][10] = { "박준용", "장지용", "정호진", "김진희", "이은상" };
